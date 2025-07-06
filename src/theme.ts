@@ -1,24 +1,67 @@
-// src/theme.ts
 import { createTheme } from '@mui/material/styles';
 
-const getCssVar = (name: string) =>
-    getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+// Definiamo i colori direttamente in JavaScript per la massima robustezza.
+// Questo elimina la dipendenza dal file theme.css per la logica del tema.
+const colors = {
+    teal: '#00a0b0',
+    light: {
+        bg: '#ffffff',
+        surface: '#f5f5f5',
+        textPrimary: '#111111',
+        textSecondary: '#4a4a4a',
+        border: '#e0e0e0',
+    },
+    dark: {
+        bg: '#0b0b0b',
+        surface: '#1a1a1a',
+        textPrimary: '#ffffff',
+        textSecondary: '#d0d0d0',
+        border: '#333333',
+    }
+};
 
 export const getMuiTheme = (mode: 'light' | 'dark') =>
     createTheme({
         palette: {
             mode,
-            background: {
-                default: mode === 'light' ? getCssVar('--light-bg') : getCssVar('--dark-bg'),
-                paper: mode === 'light' ? getCssVar('--light-surface') : getCssVar('--dark-surface'),
-            },
-            text: {
-                primary: mode === 'light' ? getCssVar('--light-text-primary') : getCssVar('--dark-text-primary'),
-                secondary: mode === 'light' ? getCssVar('--light-text-secondary') : getCssVar('--dark-text-secondary'),
-            },
             primary: {
-                main: getCssVar('--accent-teal'),
+                main: colors.teal,
             },
-            divider: mode === 'light' ? getCssVar('--light-border') : getCssVar('--dark-border'),
+            ...(mode === 'light'
+                ? {
+                    // Palette per la light mode
+                    background: {
+                        default: colors.light.bg,
+                        paper: colors.light.surface,
+                    },
+                    text: {
+                        primary: colors.light.textPrimary,
+                        secondary: colors.light.textSecondary,
+                    },
+                    divider: colors.light.border,
+                }
+                : {
+                    // Palette per la dark mode
+                    background: {
+                        default: colors.dark.bg,
+                        paper: colors.dark.surface,
+                    },
+                    text: {
+                        primary: colors.dark.textPrimary,
+                        secondary: colors.dark.textSecondary,
+                    },
+                    divider: colors.dark.border,
+                }),
+        },
+        typography: {
+            fontFamily: [
+                '-apple-system',
+                'BlinkMacSystemFont',
+                '"Segoe UI"',
+                'Roboto',
+                '"Helvetica Neue"',
+                'Arial',
+                'sans-serif',
+            ].join(','),
         },
     });

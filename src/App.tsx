@@ -1,12 +1,14 @@
-import { useEffect, useMemo, useState } from 'react';
-import { ThemeProvider, CssBaseline, Switch, FormControlLabel, Box } from '@mui/material';
+import { useMemo, useState, useEffect } from 'react';
+import { Outlet, useOutletContext } from 'react-router-dom';
+import { ThemeProvider, CssBaseline } from '@mui/material';
 import { getMuiTheme } from './theme';
-import { Outlet } from 'react-router-dom'; // React Router
+// Import per il Date Picker
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 export default function App() {
   const [mode, setMode] = useState<'light' | 'dark'>('light');
 
-  // Rileva la preferenza di sistema al primo caricamento
   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setMode(prefersDark ? 'dark' : 'light');
@@ -19,21 +21,18 @@ export default function App() {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-
-      {/* Toggle in alto a destra */}
-      <Box sx={{ position: 'fixed', top: 16, right: 16, zIndex: 1301 }}>
-        <FormControlLabel
-          control={<Switch checked={mode === 'dark'} onChange={handleToggle} />}
-          label={mode === 'light' ? '🌙 Dark mode' : '☀️ Light mode'}
-        />
-      </Box>
-
-      {/* Area centrale gestita da React Router */}
-      <main>
-        <Outlet />
-      </main>
-    </ThemeProvider>
+    // Avvolgiamo tutto nel LocalizationProvider
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <main>
+          <Outlet context={{ toggleColorMode: handleToggle, mode }} />
+        </main>
+      </ThemeProvider>
+    </LocalizationProvider>
   );
+}
+
+export function useThemeContext() {
+  return useOutletContext<{ toggleColorMode: () => void; mode: 'light' | 'dark' }>();
 }

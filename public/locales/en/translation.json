@@ -1,0 +1,221 @@
+{
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "clients": "Clients",
+        "estimates": "Estimates",
+        "greeting": "Hi, {{email}}"
+    },
+    "public_navbar": {
+        "features": "Features",
+        "pricing": "Pricing",
+        "login": "Login",
+        "light_mode": "Light Mode",
+        "dark_mode": "Dark Mode"
+    },
+    "public_footer": {
+        "rights_reserved": "All rights reserved."
+    },
+    "homepage": {
+        "hero": {
+            "title": "Stop being a manager. Go back to being an artist.",
+            "subtitle": "Flowvio is the only management software that combines powerful automations, an unforgettable customer experience, and business growth tools.",
+            "cta_button": "Start your free trial"
+        },
+        "features": {
+            "one": {
+                "title": "Intelligent Automation",
+                "description": "Save dozens of hours every month by automating tedious and repetitive tasks."
+            },
+            "two": {
+                "title": "Premium Customer Experience",
+                "description": "Offer your clients a flawless and branded digital experience they won't forget."
+            },
+            "three": {
+                "title": "Growth Tools",
+                "description": "Get the data and tools to increase your revenue and improve your marketing."
+            }
+        }
+    },
+    "features_page": {
+        "main_title": "Features Designed for You",
+        "subtitle": "Discover how Flowvio transforms the way you work.",
+        "automation": {
+            "title": "Intelligent Automation",
+            "description": "Forget manual tasks. Focus on your art, we'll handle the rest.",
+            "point1": "Automatic quotes and invoices",
+            "point2": "Scheduled follow-up emails",
+            "point3": "Visual pipeline to never lose a lead"
+        },
+        "experience": {
+            "title": "Premium Customer Experience",
+            "description": "Make every couple feel special with a dedicated, elegant, and professional portal.",
+            "point1": "Custom-branded client area",
+            "point2": "Integrated photo galleries for proofing",
+            "point3": "Interactive event timeline"
+        },
+        "growth": {
+            "title": "Growth Tools",
+            "description": "Not just a management tool, but a partner to grow your business.",
+            "point1": "Financial dashboard with revenue tracking",
+            "point2": "Referral programs to encourage word-of-mouth",
+            "point3": "Reports to understand which services sell best"
+        }
+    },
+    "pricing_page": {
+        "main_title": "A Plan for Every Need",
+        "subtitle": "Choose the plan that grows with you. Simple, transparent, and no surprises.",
+        "monthly": "Monthly",
+        "annual": "Annual (Save 2 months)",
+        "cta_button_solo": "Start with SOLO",
+        "cta_button_studio": "Start with STUDIO",
+        "cta_button_addon": "Add to Plan",
+        "solo": {
+            "title": "SOLO",
+            "monthly_price": "24",
+            "annual_price": "240",
+            "description": "For freelancers and professionals looking to automate their business.",
+            "feature1": "Unlimited Client Management",
+            "feature2": "Quotes and Invoices",
+            "feature3": "1 Invoicing Connector"
+        },
+        "studio": {
+            "title": "STUDIO",
+            "monthly_price": "49",
+            "annual_price": "490",
+            "description": "For teams and studios that require collaboration and advanced features.",
+            "feature1": "Everything in SOLO plan",
+            "feature2": "Team Management",
+            "feature3": "All Supported Connectors"
+        },
+        "addon": {
+            "title": "Creative Hub",
+            "monthly_price": "15",
+            "annual_price": "150",
+            "description": "Supercharge your plan with visual tools for your images.",
+            "feature1": "Native Photo Galleries",
+            "feature2": "150 GB Storage included"
+        }
+    },
+    "clients_page": {
+        "title": "Your Clients",
+        "add_client": "Add Client",
+        "new_client_modal_title": "New Client",
+        "table": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "created_date": "Created Date"
+        },
+        "no_clients": "You haven't added any clients yet. Click on 'Add Client' to start."
+    },
+    "client_form": {
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone"
+    },
+    "login_page": {
+        "title": "Login to Flowvio",
+        "submit_button": "Login",
+        "loading_button": "Logging in..."
+    },
+    "dashboard_page": {
+        "welcome": "Welcome to your operating system for creatives,"
+    },
+    "estimates_page": {
+        "title": "Your Estimates",
+        "add_estimate": "Create Estimate",
+        "no_estimates": "You haven't created any estimates yet.",
+        "table": {
+            "title": "Title",
+            "client": "Client",
+            "status": "Status",
+            "total": "Total",
+            "valid_until": "Valid Until"
+        }
+    },
+    "create_estimate_page": {
+        "title": "Create New Estimate",
+        "details_title": "Main Details",
+        "client_label": "Select a client",
+        "title_label": "Estimate Title (e.g., Smith Wedding)",
+        "valid_until_label": "Valid until",
+        "items_title": "Estimate Items",
+        "item": {
+            "description": "Description",
+            "quantity": "Quantity",
+            "unit_price": "Unit Price"
+        },
+        "add_item_button": "Add Item",
+        "subtotal": "Subtotale",
+        "total": "Total",
+        "save_button": "Save Estimate",
+        "saving_button": "Saving...",
+        "errors": {
+            "missing_data": "Please make sure you have selected a client and an expiration date."
+        }
+    },
+    "estimate_statuses": {
+        "draft": "Draft",
+        "sent": "Sent",
+        "accepted": "Accepted",
+        "declined": "Declined"
+    },
+    "estimate_actions": {
+        "mark_sent": "Mark as Sent",
+        "mark_accepted": "Mark as Accepted",
+        "mark_declined": "Mark as Declined",
+        "mark_draft": "Mark as Draft"
+    },
+    "common": {
+        "logout": "Logout",
+        "cancel": "Cancel",
+        "save": "Save Client",
+        "saving": "Saving..."
+    },
+    "blog_page": {
+        "title": "Our Blog",
+        "subtitle": "Tips, stories, and inspiration for wedding creatives. Coming soon!"
+    },
+    "legal_page": {
+        "title": "Legal",
+        "privacy_title": "Privacy Policy",
+        "privacy_content": "Privacy policy content coming soon...",
+        "terms_title": "Terms of Service",
+        "terms_content": "Terms of service content coming soon..."
+    },
+    "cookie_banner": {
+        "text": "This website uses cookies to enhance the user experience.",
+        "accept_button": "Accept",
+        "decline_button": "Decline",
+        "policy_link": "Read our policy."
+    },
+    "signup_page": {
+        "title": "Create Your Account",
+        "password_label": "Password",
+        "submit_button": "Sign Up",
+        "loading_button": "Signing up...",
+        "success_title": "Check your email!",
+        "success_message": "We've sent you a link to confirm your account.",
+        "back_to_login": "Already have an account? Login"
+    },
+    "leads_page": {
+        "title": "Contact Requests",
+        "no_leads": "No new contact requests.",
+        "table": {
+            "name": "Name",
+            "email": "Email",
+            "event_date": "Event Date",
+            "status": "Status",
+            "received_on": "Received On"
+        }
+    },
+    "contact_page": {
+        "title": "Request Information",
+        "subtitle": "Fill out the form to check my availability and receive a custom quote.",
+        "event_date_label": "Event Date (optional)",
+        "message_label": "Your Message",
+        "submit_button": "Send Request",
+        "success_title": "Request Sent!",
+        "success_message": "Thank you for contacting me. I will get back to you as soon as possible."
+    }
+}

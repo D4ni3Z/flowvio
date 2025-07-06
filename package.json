@@ -13,9 +13,18 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.2.0",
+    "@mui/x-date-pickers": "^8.7.0",
+    "@supabase/supabase-js": "^2.50.2",
+    "dayjs": "^1.11.13",
+    "i18next": "^25.3.0",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
     "lucide-react": "^0.525.0",
+    "notistack": "^3.0.2",
     "react": "^19.1.0",
+    "react-cookie-consent": "^9.0.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.5.3",
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
@@ -27,6 +36,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
+    "supabase": "^2.30.4",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "vite": "^7.0.0"

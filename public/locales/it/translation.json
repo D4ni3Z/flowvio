@@ -1,0 +1,221 @@
+{
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "clients": "Clienti",
+        "estimates": "Preventivi",
+        "greeting": "Ciao, {{email}}"
+    },
+    "public_navbar": {
+        "features": "Funzionalità",
+        "pricing": "Prezzi",
+        "login": "Accedi",
+        "light_mode": "Modalità Chiara",
+        "dark_mode": "Modalità Scura"
+    },
+    "public_footer": {
+        "rights_reserved": "Tutti i diritti riservati."
+    },
+    "homepage": {
+        "hero": {
+            "title": "Smetti di fare il manager. Torna a fare l'artista.",
+            "subtitle": "Flowvio è l'unico gestionale che unisce automazioni potenti, un'esperienza cliente indimenticabile e strumenti di crescita per il tuo business.",
+            "cta_button": "Inizia la prova gratuita"
+        },
+        "features": {
+            "one": {
+                "title": "Automazione Intelligente",
+                "description": "Risparmia decine di ore ogni mese automatizzando le attività noiose e ripetitive."
+            },
+            "two": {
+                "title": "Esperienza Cliente Premium",
+                "description": "Offri ai tuoi clienti un'esperienza digitale impeccabile e brandizzata che non dimenticheranno."
+            },
+            "three": {
+                "title": "Strumenti di Crescita",
+                "description": "Ottieni i dati e gli strumenti per aumentare il tuo fatturato e migliorare il tuo marketing."
+            }
+        }
+    },
+    "features_page": {
+        "main_title": "Funzionalità Pensate per Te",
+        "subtitle": "Scopri come Flowvio trasforma il tuo modo di lavorare.",
+        "automation": {
+            "title": "Automazione Intelligente",
+            "description": "Dimentica le attività manuali. Concentrati sulla tua arte, al resto pensiamo noi.",
+            "point1": "Preventivi e fatture automatiche",
+            "point2": "Email di follow-up programmate",
+            "point3": "Pipeline visiva per non perdere mai un cliente"
+        },
+        "experience": {
+            "title": "Esperienza Cliente Premium",
+            "description": "Fai sentire ogni coppia speciale con un portale dedicato, elegante e professionale.",
+            "point1": "Area cliente personalizzata con il tuo brand",
+            "point2": "Gallerie fotografiche integrate per la selezione",
+            "point3": "Timeline interattiva dell'evento"
+        },
+        "growth": {
+            "title": "Strumenti di Crescita",
+            "description": "Non solo un gestionale, ma un partner per far crescere la tua attività.",
+            "point1": "Dashboard finanziaria con tracciamento delle entrate",
+            "point2": "Programmi di referral per incentivare il passaparola",
+            "point3": "Report per capire quali servizi vendono di più"
+        }
+    },
+    "pricing_page": {
+        "main_title": "Un Piano per Ogni Esigenza",
+        "subtitle": "Scegli il piano che cresce con te. Semplice, trasparente e senza sorprese.",
+        "monthly": "Mensile",
+        "annual": "Annuale (Risparmia 2 mesi)",
+        "cta_button_solo": "Inizia con SOLO",
+        "cta_button_studio": "Inizia con STUDIO",
+        "cta_button_addon": "Aggiungi al Piano",
+        "solo": {
+            "title": "SOLO",
+            "monthly_price": "24",
+            "annual_price": "240",
+            "description": "Per freelance e professionisti che vogliono automatizzare il loro business.",
+            "feature1": "Gestione Clienti Illimitata",
+            "feature2": "Preventivi e Fatture",
+            "feature3": "1 Connettore di Fatturazione"
+        },
+        "studio": {
+            "title": "STUDIO",
+            "monthly_price": "49",
+            "annual_price": "490",
+            "description": "Per team e studi che necessitano di collaborazione e funzionalità avanzate.",
+            "feature1": "Tutto del piano SOLO",
+            "feature2": "Gestione Collaboratori",
+            "feature3": "Tutti i Connettori supportati"
+        },
+        "addon": {
+            "title": "Creative Hub",
+            "monthly_price": "15",
+            "annual_price": "150",
+            "description": "Potenzia il tuo piano con strumenti visivi per le tue immagini.",
+            "feature1": "Gallerie Fotografiche Native",
+            "feature2": "150 GB di Storage inclusi"
+        }
+    },
+    "clients_page": {
+        "title": "I Tuoi Clienti",
+        "add_client": "Aggiungi Cliente",
+        "new_client_modal_title": "Nuovo Cliente",
+        "table": {
+            "name": "Nome",
+            "email": "Email",
+            "phone": "Telefono",
+            "created_date": "Data Creazione"
+        },
+        "no_clients": "Non hai ancora aggiunto nessun cliente. Clicca su 'Aggiungi Cliente' per iniziare."
+    },
+    "client_form": {
+        "name": "Nome Completo",
+        "email": "Email",
+        "phone": "Telefono"
+    },
+    "login_page": {
+        "title": "Login a Flowvio",
+        "submit_button": "Accedi",
+        "loading_button": "Accesso in corso..."
+    },
+    "dashboard_page": {
+        "welcome": "Benvenuto nel tuo sistema operativo per creativi,"
+    },
+    "estimates_page": {
+        "title": "I Tuoi Preventivi",
+        "add_estimate": "Crea Preventivo",
+        "no_estimates": "Non hai ancora creato nessun preventivo.",
+        "table": {
+            "title": "Titolo",
+            "client": "Cliente",
+            "status": "Stato",
+            "total": "Totale",
+            "valid_until": "Valido Fino Al"
+        }
+    },
+    "create_estimate_page": {
+        "title": "Crea Nuovo Preventivo",
+        "details_title": "Dettagli Principali",
+        "client_label": "Seleziona un cliente",
+        "title_label": "Titolo del Preventivo (es. Matrimonio Rossi)",
+        "valid_until_label": "Valido fino al",
+        "items_title": "Voci del Preventivo",
+        "item": {
+            "description": "Descrizione",
+            "quantity": "Quantità",
+            "unit_price": "Prezzo Unitario"
+        },
+        "add_item_button": "Aggiungi Voce",
+        "subtotal": "Subtotale",
+        "total": "Totale",
+        "save_button": "Salva Preventivo",
+        "saving_button": "Salvataggio in corso...",
+        "errors": {
+            "missing_data": "Assicurati di aver selezionato un cliente e una data di scadenza."
+        }
+    },
+    "estimate_statuses": {
+        "draft": "Bozza",
+        "sent": "Inviato",
+        "accepted": "Accettato",
+        "declined": "Rifiutato"
+    },
+    "estimate_actions": {
+        "mark_sent": "Segna come Inviato",
+        "mark_accepted": "Segna come Accettato",
+        "mark_declined": "Segna come Rifiutato",
+        "mark_draft": "Segna come Bozza"
+    },
+    "common": {
+        "logout": "Logout",
+        "cancel": "Annulla",
+        "save": "Salva Cliente",
+        "saving": "Salvataggio..."
+    },
+    "blog_page": {
+        "title": "Il Nostro Blog",
+        "subtitle": "Consigli, storie e ispirazioni per creativi del wedding. Prossimamente!"
+    },
+    "legal_page": {
+        "title": "Note Legali",
+        "privacy_title": "Privacy Policy",
+        "privacy_content": "Contenuto della privacy policy in arrivo...",
+        "terms_title": "Termini di Servizio",
+        "terms_content": "Contenuto dei termini di servizio in arrivo..."
+    },
+    "cookie_banner": {
+        "text": "Questo sito utilizza i cookie per migliorare l'esperienza dell'utente.",
+        "accept_button": "Accetta",
+        "decline_button": "Rifiuta",
+        "policy_link": "Leggi la nostra policy."
+    },
+    "signup_page": {
+        "title": "Crea il tuo Account",
+        "password_label": "Password",
+        "submit_button": "Registrati",
+        "loading_button": "Registrazione...",
+        "success_title": "Controlla la tua email!",
+        "success_message": "Ti abbiamo inviato un link per confermare il tuo account.",
+        "back_to_login": "Hai già un account? Accedi"
+    },
+    "leads_page": {
+        "title": "Richieste di Contatto",
+        "no_leads": "Nessuna nuova richiesta di contatto.",
+        "table": {
+            "name": "Nome",
+            "email": "Email",
+            "event_date": "Data Evento",
+            "status": "Stato",
+            "received_on": "Ricevuto il"
+        }
+    },
+    "contact_page": {
+        "title": "Richiedi Informazioni",
+        "subtitle": "Compila il form per verificare la mia disponibilità e ricevere un preventivo personalizzato.",
+        "event_date_label": "Data dell'Evento (opzionale)",
+        "message_label": "Il tuo Messaggio",
+        "submit_button": "Invia Richiesta",
+        "success_title": "Richiesta Inviata!",
+        "success_message": "Grazie per avermi contattato. Ti risponderò il prima possibile."
+    }
+}
